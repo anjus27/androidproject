@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorb"
+    tools:context="com.example.user.mygovtapp.Main6Activity">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Registering For Paying Land Tax
+        Following are the documents that are required for registering land tax
+     1) Copy of the PAN Card of the Proprietor or the Legal Entity registered.\n
+2) Photograph and Proof of Identity of the person filling the application namely PAN Card, Passport, Voter Id Card, Aadhar Card, Driving Licence, or any other photo identity card issued by the Central Govt., State Govt., or Public Sector Undertaking.\n
+3) Document to establish possession of the premises to be registered such as proof of ownership, lease or rent agreement, allotment letter from the govt, No Objection from the Legal Owner.\n
+4) Details of the main bank account\n
+   Memorandum/ Articles of Association/ List of Directors\n
+   Authorisation by the Board of Directors/ Partners/Proprietor for the person filing the application.\n
+   Business Transaction Numbers obtained from other govt departments or agencies such as Customs Registration No. (BIN No.), Import Export Code (IEC) No., State Sales Tax No. (VAT) Central Sales Tax No., Company Index No. (CIN) which have been issued prior to the filing of the Service Tax Registration application.\n"
+                android:textSize="18dp" />
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Click to register"
+        android:background="@color/yellow"/>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mygovtapp.Main5Activity"
+    android:background="@drawable/colorb">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textSize="18dp"
+                android:text="Registering Passport
+        Following are the documents that are required for Applying Passport
+     1)Minor
+1) It is assumed that consent of both parents is available, unless specified.\n
+2) For minor applicants, present address proof document in the name of parent(s) can be submitted.\n
+3) It is advised to carry original and self-attested copies of parents passport to Passport Seva Kendra (PSK), in case parents possess passport.\n
+4) For minor applicants, documents can be attested by parents.\n
+5) The minor applicant is eligible for Non-ECR till he/she attains the age of 18 years.\n
+  ECR/ECNR
+  ECR stands for Emigration Check Required and ECNR stands for Emigration Check Not Required." />
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Click to register"
+        android:background="@color/yellow"/>
+</RelativeLayout>

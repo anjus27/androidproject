@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mygovtapp.Main4Activity"
+    android:background="@drawable/colorb">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18dp"
+        android:text="Registering Marriage Within 45 days of Marriage\n
+        Following are the documents that are required for registering marriage\n
+     1)3 Passport sized photo of bride and bridegroom.\n
+     2)Filled up application form with one duplicate copy. You need to affix two photos each of bride and bridegroom.\n
+     3)A certificate from the religious institution where marriage was held.\n
+     4) Copy of Marriage Invitation.\n
+     5)Address proof of current residing address which should be on Bride or Grooms name.\n
+     6)2 Attested copy of S.S.L.C Book/passport/driving license/extract of school admission register or other records issued by Government showing date of birth" />
+</RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="click to register"
+        android:background="@color/yellow"/>
+</RelativeLayout>
